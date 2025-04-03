@@ -607,7 +607,51 @@ img {
     opacity: 1;
     transform: translateX(0);
   }
-  
-  /* JavaScript to trigger the animation on scroll */
+  @media screen and (max-width: 768px) {
+    .toggle {
+        display: block;
+        margin-right: 20px;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .skills-container {
+        width: 100%;
+    }
+
+    .box4 {
+        flex-wrap: wrap;
+        height: 322vh;
+    }
+
+    .tools {
+        margin-left: 60px;
+    }
+
+    .border {
+        margin-left: 213px;
+    }
+    .tools-icon{
+        margin: auto;
+    }
+    #services{
+        width: 65%;
+    }
+    .project-sec {
+        height: 28vh;
+    }
+    .about-sec{
+        height: 1180px;
+    }
+    #contact{
+        width: 65%;
+    }
+    footer{
+        flex-wrap: wrap;
+    }
+}
+ 
 
   
