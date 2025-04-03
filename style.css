@@ -607,6 +607,14 @@ img {
     opacity: 1;
     transform: translateX(0);
   }
+ .section{
+    overflow: hidden;
+  }
+  .toggle{
+    width: 20px;
+    height: 20px;
+    display: none;
+ }
   @media screen and (max-width: 768px) {
     .toggle {
         display: block;
@@ -652,6 +660,8 @@ img {
         flex-wrap: wrap;
     }
 }
+
+
  
 
   
