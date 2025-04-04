@@ -4,6 +4,9 @@
         margin-right: 20px;
         cursor: pointer;
     }
+     body{
+        overflow-x: hidden;
+    }
 
     .nav-bar {
         position: relative;
