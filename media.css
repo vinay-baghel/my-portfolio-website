@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .toggle {
         display: block;
         margin-right: 20px;
@@ -11,7 +11,11 @@
     .nav-bar {
         position: relative;
         overflow: initial;
-    }
+        position: sticky;
+        z-index: 1000;
+        top: 0;
+        }
+    
 
     .navlinks {
 
