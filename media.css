@@ -7,16 +7,12 @@
      body{
         overflow-x: hidden;
     }
-
     .nav-bar {
-        position: relative;
-        overflow: initial;
-        }
-    .nav-bar {
-    position: fixed;
+    position: sticky;
     z-index: 1000;
     top: 0;
     width: 100%;   
+    overflow: initial;
 }
     
 
