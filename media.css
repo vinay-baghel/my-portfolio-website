@@ -1,0 +1,141 @@
+@media screen and (max-width: 768px) {
+    .toggle {
+        display: block;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+
+    .nav-bar {
+        position: relative;
+        overflow: initial;
+    }
+
+    .navlinks {
+
+        position: absolute;
+        background-color: rgb(0 0 0);
+        right: -100%;
+        top: 100%;
+        width: 50%;
+        padding-block: 20px;
+        transition: 0.5s ease-in-out;
+        height: 90vh;
+      
+    }
+    #navtoggle.active {
+        right: 0; 
+    }
+
+    .navlinks ul {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .skills-container {
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .box4 {
+        flex-wrap: wrap;
+        height: 210vh;
+    }
+
+    .tools {
+        margin-left: 0px;
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tools-icon {
+        margin: auto;
+    }
+
+    #services {
+        width: 80%;
+    }
+
+    .box2 h1 {
+        display: inline-block;
+
+    }
+
+    .about-sec {
+        height: 1180px;
+       
+
+    }
+
+    #contact {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-block: 40px;
+    }
+
+    footer {
+        flex-wrap: wrap;
+    }
+
+    .aboutme {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0px;
+    }
+
+    .aboutme p {
+        font-size: 1rem;
+        width: 80%;
+    }
+
+    .box2 {
+        height: 448px;
+        display: block;
+        text-align: center;
+    }
+
+    .box5 {
+        height: 1020px;
+    }
+
+    .project-sec {
+        margin-top: 290px;
+    }
+
+    #services h2 {
+        font-size: 1.5em;
+    }
+
+    form {
+        margin: 0px;
+        width: 205px;
+        margin-top: 59px;
+
+    }
+
+    .image h1 {
+        font-size: 40px;
+    }
+
+    .tools-icons img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .box1 {
+        height: 590px;
+    }
+    .sectionvisible{
+        
+    }
+}
